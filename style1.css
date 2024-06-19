@@ -1,0 +1,331 @@
+body{
+    background-color: rgb(246, 246, 246);
+}
+
+
+
+
+.bday{
+    display:inline-block;
+    
+
+}
+.bday img{
+    margin: auto;
+    border-radius: 2%;
+    
+}
+
+class.carousel-inner{
+    mask-size: cover;
+
+
+}
+
+#img1{
+width:300px;
+height: 300px; 
+display: flex;
+margin: 0px;
+ border-radius: 50%; 
+ 
+
+}
+.bttn1{
+    
+    background-color: rgb(34, 185, 244);
+    border-radius: 10%;
+    
+    
+}
+.bttn1:hover{
+    scale: 120%;
+    background-color:rgb(247, 85, 142);
+}
+.bttn1,#insta{
+    color: black;
+    
+}
+.bttn2{
+    border-radius: 10%;
+    background-color: rgb(247, 85, 142);
+    width: 80px;
+}
+.bttn2:hover{
+    scale: 120%;
+    background-color: rgb(34, 185, 244);}
+.bttn2,#email{
+    color: black;
+    
+}
+.carousel-inner{
+    /* padding: 3%; */
+    display: flex;
+    /* height: 750px;
+    width: 1300px; */
+    margin: 0px;
+    /* text-align: center; */
+    /* margin-left: 0cm; */
+    margin-top: 10px;
+    /* border-radius: 2%; */
+}
+.carousel-control-prev,#carouselExampleFade{
+display: flex;
+margin: 0px;
+
+}
+.upper_card{
+    display: flex;
+    margin-left: 200px;
+    /* height: 200px; */
+}
+.lower_card{
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+.card_bday1{
+    background-color: rgb(88, 224, 88);
+    border-radius: 50px ;
+    
+   
+}
+.card_bday1:hover{
+    scale: 105%;
+}
+.card_bday2{
+    margin-left: 40px;
+    background-color:  rgb(88, 224, 88);
+    border-radius: 50px;
+
+}
+.card_bday2:hover{
+    scale: 105%;
+}
+.card_bday3{
+    margin-left: 40px;
+    background-color: rgb(88, 224, 88);
+    border-radius: 50px;
+}
+.card_bday3:hover{
+    scale: 105%;
+}
+.card_bday4{
+background-color:  rgb(88, 224, 88);
+border-radius: 50px;
+}
+.card_bday4:hover{
+    scale: 105%;
+}
+.card_bday5{
+    
+    margin-left: 40px;
+    background-color:  rgb(88, 224, 88);
+    border-radius: 50px;
+}
+.card_bday5:hover{
+    scale: 105%;
+}
+.card_bday6{
+    margin-left: 40px;
+    background-color:  rgb(88, 224, 88);
+    border-radius: 50px;
+}
+.card_bday6:hover{
+    scale: 105%;
+}
+footer {
+    background-color: rgb(20, 20, 20);
+    text-align:center
+}
+
+.foot {
+    text-align: end;
+    padding-bottom: 20px;
+    margin-right: 550px;
+}
+
+.foot a>img{
+    margin: 10px;
+    opacity: 0.9;
+    padding: 3px;
+    border-radius: 15px; 
+    align-items: center;
+           
+}
+.login{
+    background-color: rgb(56, 106, 126);
+    border-radius: 10px;
+    border-color: white;
+   margin-left: 500%;
+   
+
+}
+/* .register{
+    background-color: skyblue;
+    border-radius: 10px;
+    border-color: white;
+    margin-left: 500%; */
+}
+header {
+    background-color: rgb(80, 80, 180);
+    color: #fff;
+    /* padding: 20px; */
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+ /* #g1{
+    margin: 0px;
+    height: 100px;
+    width: 90px;
+}
+#g2{
+    display: flex;
+    height: 100px;
+    width: 300px;
+}
+#g3{
+    display: flex;
+    height: 300px;
+    width: 300px;
+} */
+
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    /* padding: 20px; */
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    border-radius: 20%;
+}
+.logo img{
+    border-radius: 50%;
+    margin-left: 5%;
+
+}
+
+/* .logo h1 {
+    margin: 0;
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+   
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: goldenrod;
+}
+.account{
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.home-img{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.image
+{
+    display: block;
+    width: 100%;
+    height: 450px;
+    
+}
+
+
+    .text p{
+        display: inline;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        color: rgb(16, 13, 19);
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 24px;
+        font-weight: bold;
+        /* text-align: left;/ */
+}
+/* .home-img img{
+    width: 100%;
+    height: 500px;
+} */
+.home-img h1,p{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+
+.login{
+    background-color: skyblue;
+    border-radius: 10px;
+    
+     
+}
+.register{
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    border-color: orange;
+    align-items: center;
+    justify-content: center;
+    /* border-style: double; */
+    /* text-align: center; */
+}
+fieldset #sub{
+    display: flex;
+    text-align: center;
+}
